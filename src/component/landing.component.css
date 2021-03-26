@@ -1,0 +1,39 @@
+
+
+.box{
+    display: inline-block;
+  justify-content: center;
+}
+
+.field{
+
+margin: 5px;
+height: 70px;
+width: 70px;
+border : 2px solid black;
+text-align: center;
+text-shadow: 0 0 0 black;
+color: transparent;
+align-content: center;
+font-size: large
+
+}
+.field:focus{
+    outline: none;
+}
+
+
+.field:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+
+h1,h3{text-align: center;align-content: center;}
+
+.type{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
